@@ -33,9 +33,6 @@ public class TareaController {
                     if (tarea.isCompletada()) {
                         getStyleClass().add("completed");
                         getStyleClass().remove("pending");
-                    } else {
-                        getStyleClass().add("pending");
-                        getStyleClass().remove("completed");
                     }
                 }
             }

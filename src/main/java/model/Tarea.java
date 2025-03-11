@@ -20,9 +20,5 @@ public class Tarea {
     public void marcarCompletada() {
         this.completada = true; // Cambia el estado a completada
     }
-
-    public void desmarcarCompletada() {
-        this.completada = false; // Cambia el estado a no completada
-    }
 }
 
